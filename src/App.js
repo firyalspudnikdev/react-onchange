@@ -11,6 +11,7 @@ function App() {
   }
 
   function handleNameChange(e) {
+    console.log(e.target.value);
     setName(e.target.value);
   }
   function handleIncomeChange(e) {
