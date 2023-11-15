@@ -9,11 +9,6 @@ function App() {
   function handleSubmit() {
     console.log(name, income);
   }
-
-  function handleNameChange(e) {
-    console.log(e.target.value);
-    setName(e.target.value);
-  }
   function handleIncomeChange(e) {
     setIncome(e.target.value);
   }
@@ -23,7 +18,7 @@ function App() {
         <form onSubmit={handleSubmit} className="formStyle" >
           <div className="formField">
             <span>Name:</span>
-            <input type="text" value={name} onChange={handleNameChange} />
+            <button onClick={() => {console.log("tes-click");}}></button>
           </div>
           <div className="formField">
             <span>Income:</span>
