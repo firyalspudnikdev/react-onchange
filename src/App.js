@@ -18,7 +18,7 @@ function App() {
         <form className="formStyle" >
           <div className="formField">
             <span>Name:</span>
-            <button onClick={() => {console.log("tes-click");}}></button>
+            <button onClick={() => {console.log("tes-click");}}>Button</button>
           </div>
           <div className="formField">
             <span>Income:</span>
