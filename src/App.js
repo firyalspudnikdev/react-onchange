@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./App.css";
 // controlled Inputs
 // controlled vs uncontrolled
